@@ -4,15 +4,18 @@
 //
 //  Created by Roman Mykitchak on 03/08/2018.
 //  Copyright © 2018 Roman Mykitchak. All rights reserved.
-//
+//https://recruitment.app.daftmobile.com/4bfa8ed19efc45a6a4c162492a40a44e/task.html
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var circleView: UICircleView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        circleView.setNeedsDisplay()
+        circleView.setNeedsDisplay(circleView.frame)
     }
 
     override func didReceiveMemoryWarning() {

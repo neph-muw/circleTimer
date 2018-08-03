@@ -13,6 +13,7 @@
 		AABCED77211465F2009466BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABCED76211465F2009466BB /* Assets.xcassets */; };
 		AABCED7A211465F2009466BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABCED78211465F2009466BB /* LaunchScreen.storyboard */; };
 		AABCED85211465F2009466BB /* circleTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABCED84211465F2009466BB /* circleTimerTests.swift */; };
+		AABCED9021147420009466BB /* UICirkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABCED8F21147420009466BB /* UICirkleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AABCED80211465F2009466BB /* circleTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = circleTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABCED84211465F2009466BB /* circleTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleTimerTests.swift; sourceTree = "<group>"; };
 		AABCED86211465F3009466BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABCED8F21147420009466BB /* UICirkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICirkleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				AABCED6F211465F1009466BB /* AppDelegate.swift */,
 				AABCED71211465F1009466BB /* ViewController.swift */,
+				AABCED8F21147420009466BB /* UICirkleView.swift */,
 				AABCED73211465F1009466BB /* Main.storyboard */,
 				AABCED76211465F2009466BB /* Assets.xcassets */,
 				AABCED78211465F2009466BB /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABCED9021147420009466BB /* UICirkleView.swift in Sources */,
 				AABCED72211465F1009466BB /* ViewController.swift in Sources */,
 				AABCED70211465F1009466BB /* AppDelegate.swift in Sources */,
 			);
@@ -361,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6545U33L6;
 				INFOPLIST_FILE = circleTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6545U33L6;
 				INFOPLIST_FILE = circleTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
