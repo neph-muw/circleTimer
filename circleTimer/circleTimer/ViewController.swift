@@ -23,6 +23,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    @IBAction func runPressed(_ sender: UIButton) {
+        if sender.tag == 0 {
+            sender.tag = 1
+            sender.setTitle("Stop", for: .normal)
+        } else {
+            sender.tag = 0
+            sender.setTitle("Start", for: .normal)
+        }
+        
+        self.circleView.run(tagi: sender.tag)
+        
+    }
+    
 }
 
